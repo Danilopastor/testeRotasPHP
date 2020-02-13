@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="col text-center">
-            <a href="/novo" class="btn btn-primary" style="color: white">Ir pra nova pagina</a>
+            <a href="<?= SERVER['root'] . SERVER['aplication_path'] ?>/novo" class="btn btn-primary" style="color: white">Ir pra nova pagina</a>
         </div>
     </div>
 </div>

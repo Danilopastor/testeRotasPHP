@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="col text-center">
-            <a href="/" class="btn btn-primary" style="color: white">Ir pra Index</a>
+            <a href="<?= SERVER['root'] . SERVER['aplication_path'] ?>/" class="btn btn-primary" style="color: white">Ir pra Index</a>
         </div>
     </div>
 </div>
